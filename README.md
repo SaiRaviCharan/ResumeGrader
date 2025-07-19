@@ -21,7 +21,7 @@
 
 ---
 
-### **[🚀 View the Live Application 🚀](https://resumegrader.netlify.app/)**
+### **[🚀 View the Live Application 🚀](https://Resumegrader.vercel.app/)**
 
 ![image](https://i.imgur.com/image_881cec.png)
 
