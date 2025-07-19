@@ -1,0 +1,64 @@
+.aurora-bg {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #181024 0%, #0a0612 100%);
+}
+
+.aurora-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.7;
+  mix-blend-mode: lighten;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.aurora-blob-1 {
+  width: 600px;
+  height: 400px;
+  left: -10%;
+  top: -10%;
+  background: linear-gradient(120deg, #7fefb2 0%, #5d9fff 100%);
+  animation-name: auroraMove1;
+}
+
+.aurora-blob-2 {
+  width: 500px;
+  height: 500px;
+  right: -15%;
+  top: 0%;
+  background: linear-gradient(120deg, #a084ee 0%, #6f6fc2 100%);
+  animation-name: auroraMove2;
+}
+
+.aurora-blob-3 {
+  width: 700px;
+  height: 400px;
+  left: 20%;
+  bottom: -20%;
+  background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  animation-name: auroraMove3;
+}
+
+@keyframes auroraMove1 {
+  0% { transform: translateY(0) scale(1);}
+  50% { transform: translateY(60px) scale(1.1);}
+  100% { transform: translateY(0) scale(1);}
+}
+@keyframes auroraMove2 {
+  0% { transform: translateY(0) scale(1);}
+  50% { transform: translateY(-80px) scale(1.05);}
+  100% { transform: translateY(0) scale(1);}
+}
+@keyframes auroraMove3 {
+  0% { transform: translateX(0) scale(1);}
+  50% { transform: translateX(80px) scale(1.08);}
+  100% { transform: translateX(0) scale(1);}
+}
