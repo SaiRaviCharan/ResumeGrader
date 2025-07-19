@@ -7,7 +7,7 @@
   <p>Analyze resumes, score them against job descriptions, and get actionable feedback instantly. Built for the modern web, with zero backend hassle.</p>
   <br/>
 
-  <a href="https://resumegrader.netlify.app/" target="_blank">
+  <a href="https://Resumegrader.vercel.app/" target="_blank">
     <img src="https://img.shields.io/website?label=Live%20Demo&style=for-the-badge&up_message=online&url=https%3A%2F%2Fresumegrader.netlify.app%2F" alt="Live Demo" />
   </a>
   <a href="https://github.com/your-username/resumegrader/blob/main/LICENSE" target="_blank">
@@ -108,11 +108,6 @@ This project is a living testament to modern frontend capabilities. If you've go
 
 ---
 
-### 💬 Join the Squad
-
-Got questions? Hit a snag? Or just want to talk about cool tech? Join the vibrant Discord community of over **50,000 developers**.
-
-➡️ **[Hop into our Discord Server!](https://discord.gg/YOUR_INVITE_LINK)**
 
 <hr>
 
